@@ -1,0 +1,27 @@
+{
+  "name": "unit1-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --retain-lines -d ./build",
+    "dev-old": "nodemon --quiet src/index.js --exec babel-node ./src/index.js",
+    "server": "pm2 start build/index.js --watch",
+    "dev": "nodemon --quiet src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "~7.4.4",
+    "@babel/plugin-transform-runtime": "~7.4.4",
+    "@babel/plugin-transform-regenerator": "~7.4.4",
+    "@babel/preset-env": "7.4.3",
+    "@babel/node": "~7.2.2",
+    "@babel/polyfill": "~7.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.4.4",
+    "nodemon": "^1.19.0"
+  }
+}
