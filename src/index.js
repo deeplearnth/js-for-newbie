@@ -1,8 +1,8 @@
 var deeplearn = 9
 var course = "Javascript Newbie"
 var test = 1.21232
-var JS
 var newbie = null
+var JS
 var chrome = { type: "browser" }
 var isTrue = false
 
