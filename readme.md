@@ -13,5 +13,12 @@ This repo contain code companion with JS for newbie course on deeplearn platform
 - unit1 Javascript Data type
 - unit2 Variable declaration
 - unit3 Function and Datatype variable scope , hoisting
-- unit4 Javascript Object and Array
-- unit5
+- unit4 Javascript Object and Array functional
+- unit5 Control statement diffrent way to use loop
+- unit6 Promise and try catch exception
+
+### How to execute each example
+
+```shell
+ $ yarn dev or npm run dev
+```
