@@ -1,6 +1,9 @@
 const arrayOfName = ["abacus", "banish", "campus", "deenee"]
 const arrayOfNumber = [85, 15, 44, 98, 125]
 
+// array.filter(function(item){item expression })
+// array.find(function(item){item expression})
+
 console.log(arrayOfName.find(item => item === "deenee"))
 console.log(arrayOfName.filter(item => item !== "banish"))
 console.log(arrayOfName.filter(item => item > "abacus"))
